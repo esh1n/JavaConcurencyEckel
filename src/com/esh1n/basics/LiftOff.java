@@ -1,4 +1,4 @@
-package com.esh1n;
+package com.esh1n.basics;
 
 public class LiftOff implements Runnable{
 

@@ -1,4 +1,4 @@
-package com.esh1n;
+package com.esh1n.basics;
 
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
