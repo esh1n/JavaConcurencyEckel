@@ -19,7 +19,11 @@ public class EvenCheckerDemo {
     }
 
     public static void main(String[] args){
+        System.out.println("start unsync even generator.Seems to end soon");
         test(new EvenGenerator());
+
+        System.out.println("start usync even generator.Seems to work forever");
+        test(new SynchronizedEvenGenerator());
     }
 }
 

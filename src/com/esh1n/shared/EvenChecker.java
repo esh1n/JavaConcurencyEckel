@@ -15,5 +15,6 @@ public  class EvenChecker implements Runnable{
                 generator.cancel();
             }
         }
+        System.out.println("end of generation "+Thread.currentThread().getName());
     }
 }
