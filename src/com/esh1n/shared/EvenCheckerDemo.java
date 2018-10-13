@@ -22,8 +22,11 @@ public class EvenCheckerDemo {
         System.out.println("start unsync even generator.Seems to end soon");
         test(new EvenGenerator());
 
-        System.out.println("start usync even generator.Seems to work forever");
+        System.out.println("start sync even generator.Seems to work forever");
         test(new SynchronizedEvenGenerator());
+
+        System.out.println("start mutex sync even generator.Seems to work forever");
+        test(new MutexEvenGenerator());
     }
 }
 
