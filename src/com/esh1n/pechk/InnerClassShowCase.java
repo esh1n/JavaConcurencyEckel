@@ -19,7 +19,6 @@ public class InnerClassShowCase {
 
     public static class IterableArray {
         private final Object[] items;
-
         public IterableArray(Object[] items) {
             this.items = items;
         }
